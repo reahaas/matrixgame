@@ -1,6 +1,8 @@
 # matrixgame
 Is a platform that allows sport teams to learn new moves easily, and improve the collaboration.
 
+![image](https://user-images.githubusercontent.com/35425887/114062717-7f212500-98a0-11eb-8b14-af8edfc49868.png)
+
 ## Contribution
 To contribute to this project:
 1. install git.
@@ -15,6 +17,3 @@ To contribute to this project:
 4. Commit your changes to the local branch.
 5. push your branch to the remote server (github).
 6. From github, open a new PR asking to merge your branch to the "main" branch.
-
-![image](https://user-images.githubusercontent.com/35425887/114062717-7f212500-98a0-11eb-8b14-af8edfc49868.png)
-
