@@ -25,7 +25,6 @@ def threaded_client(conn, player_id, gameId):
     global idCount
     conn.send(str.encode(str(p)))
 
-    reply = ""
     while True:
         try:
             data = pickle.loads(conn.recv(4096))

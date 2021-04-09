@@ -12,9 +12,6 @@ class Network:
         self.addr = (self.server, self.port)
         self.p = self.connect()
 
-    def getP(self):
-        return self.p
-
     def connect(self):
         try:
             self.client.connect(self.addr)

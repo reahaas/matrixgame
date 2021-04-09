@@ -54,15 +54,6 @@ def redrawWindow(win, game, player_id):
     pygame.display.update()
 
 
-def read_pos(string):
-    string = string.split(",")
-    return int(string[0]), int(string[1])
-
-
-def make_pos(position):
-    return str(position[0]) + "," + str(position[1])
-
-
 btns = [Button("Rock", 50, 500, (0, 0, 0)), Button("Scissors", 250, 500, (255, 0, 0)),
         Button("Paper", 450, 500, (0, 255, 0))]
 
@@ -73,7 +64,6 @@ def main():
     clock = pygame.time.Clock()
     n = Network()
 
-    # start_pos = n.getP()
     while run:
         clock.tick(60)
         try:
@@ -98,8 +88,6 @@ def main():
         player.move()
 
         n.send(player)
-
-        redrawWindow(win, game, player_id)
 
 
 def menu_screen():
